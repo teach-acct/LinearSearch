@@ -13,7 +13,7 @@ Console.WriteLine();
 
 var validInput = false;
 while (!validInput) {
-    Console.Write("Enter a whole number value, fool: ");
+    Console.Write("Enter a whole number, fool: ");
     try {
         key = int.Parse(Console.ReadLine());
         validInput = true;
